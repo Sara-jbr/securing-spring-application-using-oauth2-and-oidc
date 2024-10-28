@@ -1,0 +1,25 @@
+server:
+  port: 5000
+
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: book-route
+          uri: http://localhost:4000
+          predicates:
+            - Path=/books/**
+      default-filters:
+        - TokenRelay
+        - SaveSession
+  security:
+    oauth2:
+      client:
+        registration:
+          keycloak:
+            client-id: edge-service
+            client-secret: yAZpEyxfUGMiPAIQIN6t0iFSjJ1tZZXO
+            scope: openid
+        provider:
+          keycloak:
+            issuer-uri: http://localhost:8080/realms/LiteraryHavenBookshop
