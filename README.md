@@ -1,5 +1,11 @@
 # Overview of Securing Applications with OAuth 2 and OpenID Connect
 
+## Prerequisites
+
+- [**JDK 8+**](https://adoptopenjdk.net/)
+  
+## Overview
+
 **OAuth 2.0** and **OpenID Connect (OIDC)** provide secure methods to authorize and authenticate users in modern applications. OAuth 2.0 allows third-party applications to access user resources securely without requiring credentials, while OpenID Connect extends OAuth 2.0 to handle identity verification. Together, these protocols establish robust security, especially for distributed systems like microservices architectures.
 
 ---
