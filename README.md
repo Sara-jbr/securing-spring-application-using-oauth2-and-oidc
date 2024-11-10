@@ -4,6 +4,8 @@
 
 - [**JDK 8+**](https://adoptopenjdk.net/)
 - [**Keycloak**](https://www.keycloak.org/)
+- [**Spring Boot**](https://spring.io/projects/spring-boot)
+- [**Maven**](https://maven.apache.org/download.cgi)
   
 ## Overview
 
